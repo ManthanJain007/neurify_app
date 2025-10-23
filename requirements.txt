@@ -1,0 +1,21 @@
+# NeuroWrite Platform - Python Dependencies
+
+# Web Framework
+fastapi>=0.100.0
+uvicorn[standard]>=0.23.0
+python-multipart>=0.0.6
+
+# Data Validation (using pre-built wheels)
+pydantic>=2.0.0
+
+# Google Gemini AI
+google-generativeai>=0.3.0
+
+# Environment Variables
+python-dotenv>=1.0.0
+
+# Image Processing (for Vision AI)
+Pillow>=10.0.0
+
+# Async Support
+aiofiles>=23.0.0
