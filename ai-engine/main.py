@@ -27,8 +27,8 @@ genai.configure(api_key=GEMINI_API_KEY)
 
 # Initialize FastAPI app
 app = FastAPI(
-    title="NeuroWrite AI Engine",
-    description="Advanced AI processing engine with Gemini API integration",
+    title="Neurify AI Engine",
+    description="Advanced AI processing engine with Gemini API integration - 165+ Features",
     version="1.0.0",
     docs_url="/docs",
     redoc_url="/redoc"
@@ -100,9 +100,10 @@ class AIResponse(BaseModel):
 @app.get("/")
 async def root():
     return {
-        "service": "NeuroWrite AI Engine",
+        "service": "Neurify AI Engine",
         "status": "operational",
         "version": "1.0.0",
+        "features": 165,
         "gemini_apis": ["prompt", "summarizer", "writer", "rewriter", "translator", "proofreader"]
     }
 

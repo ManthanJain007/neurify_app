@@ -1,4 +1,8 @@
-# 🚀 NeuroWrite - Quick Start Guide
+# 🚀 NeuroWrite Platform - Quick Start Guide
+
+## 🎉 ALL 165+ FEATURES ARE NOW FREE!
+
+All premium restrictions have been removed. Every user has full access to all AI-powered writing features.
 
 ## ✅ Your Setup is COMPLETE!
 
