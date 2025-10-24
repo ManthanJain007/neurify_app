@@ -382,6 +382,9 @@ async def verify_content_blockchain(content: str):
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
 
+# Vercel serverless handler
+handler = app
+
 if __name__ == "__main__":
     import uvicorn
     uvicorn.run(
